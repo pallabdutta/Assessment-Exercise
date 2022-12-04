@@ -37,7 +37,6 @@ public class TC_01_ServiceNow_Login_Positive_Negative extends BaseTest {
 	@Test(priority = 0)
 	public void verify_login_positive_feature() throws Exception {
 		// verify title is ServiceNow
-		System.out.println("verify title is ServiceNow");
 		Reporter.log("verify title is ServiceNow");
 		String app_title = driver.getTitle();
 		Assert.assertEquals(app_title, expected_title);

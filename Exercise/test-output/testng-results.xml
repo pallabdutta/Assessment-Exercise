@@ -1,109 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[verify title is ServiceNow]]>
+      <![CDATA[user should see the forgot password]]>
     </line>
     <line>
-      <![CDATA[verify username text field has label of User name]]>
+      <![CDATA[click the forgot password]]>
     </line>
     <line>
-      <![CDATA[enter username]]>
+      <![CDATA[user should see three tabs as Identify, Verify & Reset]]>
     </line>
     <line>
-      <![CDATA[verify password text field has label of Password]]>
+      <![CDATA[user should see the username label and text field]]>
     </line>
     <line>
-      <![CDATA[enter password]]>
-    </line>
-    <line>
-      <![CDATA[verify forgot password is visible to the user]]>
-    </line>
-    <line>
-      <![CDATA[verify user can see the login button]]>
-    </line>
-    <line>
-      <![CDATA[ServiceNow HomePage Title >>> ServiceNow]]>
-    </line>
-    <line>
-      <![CDATA[verify title is ServiceNow]]>
-    </line>
-    <line>
-      <![CDATA[click on login button]]>
+      <![CDATA[user should see the next button]]>
     </line>
     <line>
       <![CDATA[enter username]]>
     </line>
     <line>
-      <![CDATA[click on login button]]>
+      <![CDATA[click on the next button]]>
+    </line>
+    <line>
+      <![CDATA[verify error message Characters do not match, try again]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-12-03T20:44:24 IST" name="Default suite" finished-at="2022-12-03T20:45:14 IST" duration-ms="50078">
+  <suite started-at="2022-12-04T10:18:02 IST" name="Default suite" finished-at="2022-12-04T10:18:21 IST" duration-ms="18901">
     <groups>
     </groups>
-    <test started-at="2022-12-03T20:44:24 IST" name="Default test" finished-at="2022-12-03T20:45:14 IST" duration-ms="50078">
-      <class name="exercise.TC_01_ServiceNow_Login_Positive_Negative">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:exercise.TC_01_ServiceNow_Login_Positive_Negative@1dde4cb2]" started-at="2022-12-03T20:44:24 IST" name="launchApp" finished-at="2022-12-03T20:44:32 IST" duration-ms="7798" status="PASS">
+    <test started-at="2022-12-04T10:18:02 IST" name="Default test" finished-at="2022-12-04T10:18:21 IST" duration-ms="18901">
+      <class name="exercise.TC_02_ForgotPassword">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:exercise.TC_02_ForgotPassword@20deea7f]" started-at="2022-12-04T10:18:02 IST" name="launchApp" finished-at="2022-12-04T10:18:12 IST" duration-ms="10017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verify_login_positive_feature()[pri:0, instance:exercise.TC_01_ServiceNow_Login_Positive_Negative@1dde4cb2]" started-at="2022-12-03T20:44:32 IST" name="verify_login_positive_feature" finished-at="2022-12-03T20:44:52 IST" duration-ms="20126" status="PASS">
+        <test-method signature="verify_forgotPassword_feature()[pri:0, instance:exercise.TC_02_ForgotPassword@20deea7f]" started-at="2022-12-04T10:18:12 IST" name="verify_forgotPassword_feature" finished-at="2022-12-04T10:18:15 IST" duration-ms="3595" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[verify title is ServiceNow]]>
+              <![CDATA[user should see the forgot password]]>
             </line>
             <line>
-              <![CDATA[verify username text field has label of User name]]>
+              <![CDATA[click the forgot password]]>
+            </line>
+            <line>
+              <![CDATA[user should see three tabs as Identify, Verify & Reset]]>
+            </line>
+            <line>
+              <![CDATA[user should see the username label and text field]]>
+            </line>
+            <line>
+              <![CDATA[user should see the next button]]>
             </line>
             <line>
               <![CDATA[enter username]]>
             </line>
             <line>
-              <![CDATA[verify password text field has label of Password]]>
+              <![CDATA[click on the next button]]>
             </line>
             <line>
-              <![CDATA[enter password]]>
-            </line>
-            <line>
-              <![CDATA[verify forgot password is visible to the user]]>
-            </line>
-            <line>
-              <![CDATA[verify user can see the login button]]>
-            </line>
-            <line>
-              <![CDATA[ServiceNow HomePage Title >>> ServiceNow]]>
+              <![CDATA[verify error message Characters do not match, try again]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verify_login_positive_feature -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:exercise.TC_01_ServiceNow_Login_Positive_Negative@1dde4cb2]" started-at="2022-12-03T20:44:52 IST" name="closeApp" finished-at="2022-12-03T20:44:57 IST" duration-ms="5290" status="PASS">
+        </test-method> <!-- verify_forgotPassword_feature -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:exercise.TC_02_ForgotPassword@20deea7f]" started-at="2022-12-04T10:18:15 IST" name="closeApp" finished-at="2022-12-04T10:18:21 IST" duration-ms="5236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:exercise.TC_01_ServiceNow_Login_Positive_Negative@1dde4cb2]" started-at="2022-12-03T20:44:57 IST" name="launchApp" finished-at="2022-12-03T20:45:06 IST" duration-ms="8864" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="verify_login_negative_feature()[pri:1, instance:exercise.TC_01_ServiceNow_Login_Positive_Negative@1dde4cb2]" started-at="2022-12-03T20:45:06 IST" name="verify_login_negative_feature" finished-at="2022-12-03T20:45:09 IST" duration-ms="2759" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[verify title is ServiceNow]]>
-            </line>
-            <line>
-              <![CDATA[click on login button]]>
-            </line>
-            <line>
-              <![CDATA[enter username]]>
-            </line>
-            <line>
-              <![CDATA[click on login button]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verify_login_negative_feature -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:exercise.TC_01_ServiceNow_Login_Positive_Negative@1dde4cb2]" started-at="2022-12-03T20:45:09 IST" name="closeApp" finished-at="2022-12-03T20:45:14 IST" duration-ms="5195" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- exercise.TC_01_ServiceNow_Login_Positive_Negative -->
+      </class> <!-- exercise.TC_02_ForgotPassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

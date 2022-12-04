@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="exercise.TC_01_ServiceNow_Login_Positive_Negative">
+      <class name="exercise.TC_02_ForgotPassword">
         <methods>
           <include name="closeApp"/>
           <include name="launchApp"/>
-          <include name="verify_login_negative_feature"/>
+          <include name="verify_forgotPassword_feature"/>
         </methods>
-      </class> <!-- exercise.TC_01_ServiceNow_Login_Positive_Negative -->
+      </class> <!-- exercise.TC_02_ForgotPassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
