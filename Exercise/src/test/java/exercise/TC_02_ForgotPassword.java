@@ -24,7 +24,7 @@ public class TC_02_ForgotPassword extends BaseTest {
 	By xpath_username_txtField = By.xpath("//input[contains(@aria-label,'Enter your User name')]");
 	By xpath_next_button = By.xpath("//button[@id='sysverb_pwd_reset']");
 	By xpath_error_messsage = By.xpath("//span[@id='retype_captcha']");
-	
+
 	@Test
 	public void verify_forgotPassword_feature() {
 
@@ -65,20 +65,19 @@ public class TC_02_ForgotPassword extends BaseTest {
 		// enter username
 		Reporter.log("enter username");
 		driver.findElement(xpath_username_txtField).sendKeys(username);
-		
+
 		// click on the next button
 		Reporter.log("click on the next button");
 		wait.until(ExpectedConditions.elementToBeClickable(xpath_next_button));
 		WebElement btn_next = driver.findElement(xpath_next_button);
 		btn_next.click();
-		
+
 		// verify error message Characters do not match, try again
 		Reporter.log("verify error message Characters do not match, try again");
 		wait.until(ExpectedConditions.visibilityOfElementLocated(xpath_error_messsage));
 		WebElement message_error = driver.findElement(xpath_error_messsage);
 		boolean error_message_visibility = message_error.isDisplayed();
 		Assert.assertTrue(error_message_visibility);
-
 	}
 
 }
